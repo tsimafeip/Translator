@@ -16,11 +16,17 @@ The repo consists of
  The main source of the data is https://belapan.by/
  
  ## Collection
- Data was collected using BelapanDataScraper.py (under Scripts). 
+ Data was collected using Scripts\BelapanDataScraper.py. 
  Parsing period: october 2007 - december 2018.
  
  Before using this script default tokenizer was extended with pre-trained russian tokenizer (https://github.com/Mottl/ru_punkt).
  Some specific abbreviations ('тэл', 'вул', 'трлн') were added manually.
+ 
+ ## Data processing
+ Data was aligned using Scripts\CorpusAlighner.py. It is basic comparison of lines length, which requires a lot of attention, but gives pretty good results.
+ 
+ Afterwards to improve total quality of corpus unique sentences were filtered using Scripts\UniqueSentences.py.
+ 
  
 
 This is an open-source project, data can be used freely.
