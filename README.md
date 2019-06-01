@@ -13,10 +13,12 @@ The repo consists of
  - neural network code.
  
  ## Data source
- ? The main source of the data (web-pages,..)
+ The main source of the data is https://belapan.by/
  
  ## Collection
- ? How the data was collected
+ Data was collected using BelapanDataScraper.py (under Scripts). Parsing period: october 2007 - december 2018.
+ Before using this script default tokenizer was extended with pre-trained russian tokenizer (https://github.com/Mottl/ru_punkt).
+ Some specific abbreviations ('тэл', 'вул', 'трлн') were added manually.
  
 
 This is an open-source project, data can be used freely.
