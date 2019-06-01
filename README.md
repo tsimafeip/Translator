@@ -27,8 +27,8 @@ The repo consists of
  
  Afterwards to improve total quality of corpus unique sentences were filtered using Scripts\UniqueSentences.py.
  
- 
-### This is an open-source project, data can be used freely.
+--- 
+This is an open-source project, data can be used freely.
 Any reviews are much than welcome.
 
 -----
