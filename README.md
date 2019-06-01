@@ -1,13 +1,26 @@
 # Translator
 Russian-Belarusian neural translator
 
-Hello. 
-This project is my dyplom thesis about neural translation for language pair Russian-Belarussian.
+The data is a part of my bachelor thesis about neural translation for the language pair Russian-Belarusian.
 
-This repository will contain aligned source data (429k sentences), chunks to align and neural network code.
-'TabbedCorpusMiddleSent.txt' was created from full corpus for training small models. It contains 65k sentences limited to 80 symbols.
+## Repository
+The repo consists of
+ - 429k aligned sentence pairs (under Data/AlignedData), split into 10 batches
+ - chunks to align (under Data/ChunksToAlign)
+ 
+- **Data/TabbedCorpusMiddleSent.txt** is a sample of 65966 sentences, at max 80 characters each, and is handy to train a model only on a sample of data.
 
-This is open-source project, so you can use data and model for your own goals.
-I will be glad to get some reviews for this work.
+ - neural network code.
+ 
+ ## Data source
+ ? The main source of the data (web-pages,..)
+ 
+ ## Collection
+ ? How the data was collected
+ 
 
-Tsimafei Prakapenka.
+This is an open-source project, data can be used freely.
+Any reviews are much than welcome.
+
+-----
+Author: _Tsimafei Prakapenka_
