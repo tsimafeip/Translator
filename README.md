@@ -18,6 +18,7 @@ The repo consists of
  ## Collection
  Data was collected using BelapanDataScraper.py (under Scripts). 
  Parsing period: october 2007 - december 2018.
+ 
  Before using this script default tokenizer was extended with pre-trained russian tokenizer (https://github.com/Mottl/ru_punkt).
  Some specific abbreviations ('тэл', 'вул', 'трлн') were added manually.
  
