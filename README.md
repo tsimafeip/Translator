@@ -22,11 +22,20 @@ The repo consists of
  Before using this script default tokenizer was extended with pre-trained russian tokenizer (https://github.com/Mottl/ru_punkt).
  Some specific abbreviations ('тэл', 'вул', 'трлн') were added manually.
  
+ Medical domain data was added (approximately 4k, 2020).
+ 
  ## Data processing
- Data was aligned using Scripts\CorpusAlighner.py. It is basic comparison of lines length, which requires a lot of attention, but gives pretty good results.
+ Data was aligned using Scripts\CorpusAligner.py. It is basic comparison of lines length, which requires a lot of attention, but gives pretty good results.
  
  Afterwards to improve total quality of corpus unique sentences were filtered using Scripts\UniqueSentences.py.
  
+ ## Neural network code
+ The model was developed on the base of JoeyNMT(https://github.com/joeynmt/joeynmt).
+ 
+ Both Models\full_joey.ipynb and Models\demo_joey.ipynb are intended to use on Google Colaboratory.
+ The full version of the notebook allows following the whole process of data preprocessing, model training and inference.
+ The demo version shows opportunities for interactive inference on the trained model.
+
 --- 
 This is an open-source project, data can be used freely.
 Any reviews are much than welcome.
