@@ -8,12 +8,18 @@ The repo consists of
  - 429k aligned sentence pairs (under Data/AlignedData), split into 10 batches
  - chunks to align (under Data/ChunksToAlign)
  
+ - 4.5k aligned sentence pairs of medical domain (under Data/MedicalData)
+ 
+ - 12k aligned sentence pairs of the legal domain (under Data/LegalData). The corpus preparation still in progress.
+ 
  - **Data/TabbedCorpusMiddleSent.txt** is a sample of 65966 sentences, at max 80 characters each, and is handy to train a model only on a sample of data.
 
- - neural network code.
+ - neural network models in Jupiter Notebook format (under Models/). Those models can be easily launched and tested via Google Collaboratory.
  
- ## Data source
- The main source of the data is https://belapan.by/
+ ## Data sources
+ The source of the data for the main corpus is https://belapan.by/.
+ Medical data was scraped from the following pages: https://komzdrav-minsk.gov.by/ , https://4gkb.by/ .
+ Legislative data was prepared from documents translated by the team of the United Institute of Informatics Problems National Academy of Science of Belarus (https://ssrlab.by/7804).
  
  ## Collection
  Data was collected using Scripts\BelapanDataScraper.py. 
