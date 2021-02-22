@@ -2,10 +2,10 @@
 
 # forest, judges, process, budget
 
-doc_name = "forest"
+doc_name = "budget"
 be_postfix = "_be.txt_cleaned.txt"
 ru_postfix = "_ru.txt_cleaned.txt"
-root_path = os.path.join(os.getcwd(), "..", "data", "processed")
+root_path = os.path.join(os.getcwd(), "..", "source_data", "processed")
 path_to_rus_chunk = os.path.abspath(os.path.join(root_path, f"{doc_name}{ru_postfix}"))
 path_to_bel_chunk = os.path.abspath(os.path.join(root_path, f"{doc_name}{be_postfix}"))
 
