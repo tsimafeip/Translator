@@ -1,0 +1,14 @@
+Domain adaptation algorithm.
+
+0. Split data to test and train, load to gdrive.
+1. Copy legal data adaptation notebook.
+2. Change tag, config_name, first_run flag, correct file paths (2d cell).
+3. After creation of tagged folder ('gdrive_path'), create 'data' subfolder on gdrive and copy 'vocab.txt', 'vocab.ru', 'vocab.be' to it.
+4. Modify config file and copy it to the tagged folder.
+	- Change file name
+	- Change name on second line
+	- Change model_dir
+5. Run cells sequentially.
+6. Check resulting checkpoints on Google drive.
+7. (Optional) Load it to Google Storage.
+8. (Optional) Prepare demo notebook.
