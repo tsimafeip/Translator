@@ -1,6 +1,6 @@
 ﻿import os
 
-# forest, judges, process, budget
+# judges, process, budget
 
 doc_name = "budget"
 be_postfix = "_be.txt_cleaned.txt"
@@ -22,7 +22,7 @@ for index, (rus_line, bel_line) in enumerate((zip(open(path_to_rus_chunk, 'r', e
     if min_line <= 10 or max_line <= 10: border = 0.49
 
     # You can skip manually some indexes with correct translations
-    if index in [87, 92]: continue
+    #if (index + 1) in [87, 92]: continue
 
     if coef < border:
         print(f'Coef: {coef}')
