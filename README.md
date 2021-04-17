@@ -1,7 +1,7 @@
 # Translator
 Russian-Belarusian neural translator
 
-The data is a part of my bachelor thesis about neural translation for the language pair Russian-Belarusian.
+The data is a part of my thesis about neural translation for the language pair Russian-Belarusian.
 
 ## Repository
 The repo consists of
