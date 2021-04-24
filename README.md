@@ -2,7 +2,7 @@
 Russian-Belarusian neural translator
 
 The data is a part of my thesis about neural translation for the language pair Russian-Belarusian.
-Demo is available in two modes: web service (https://corpus.by/Translator/) and Google Collaboratory ('Models\demo_joey.ipynb').
+A demo is available in two modes: web service (https://corpus.by/Translator/) and Google Collaboratory ('Models\demo_joey.ipynb').
 
 ## Repository
 The repo consists of
@@ -29,20 +29,20 @@ The repo consists of
  Parsing period: October 2007 - December 2018.
  
  Before using this script default tokenizer was extended with a pre-trained Russian tokenizer (https://github.com/Mottl/ru_punkt).
- Some specific abbreviations ('тэл', 'вул', 'трлн') were added manually.
+ Some specific abbreviations ('тэл', 'вул', 'трлн') were added manually. The algorithm is described in the following article - https://elib.bsu.by/handle/123456789/259015/ (in Belarusian)/
  
  Medical domain data was added (approximately 4k, 2020).
  
  Legal domain data was added (approximately 12k, 2021).
  
  ## Data processing
- Data was aligned using 'Scripts\CorpusAligner.py'. It is a basic comparison of line length, which requires a lot of attention, but gives pretty good results.
+ Data were aligned using 'Scripts\CorpusAligner.py'. It is a basic comparison of line length, which requires a lot of attention, but gives pretty good results.
  
  ## Neural network code
- The model was developed the JoeyNMT as a base framework (https://github.com/joeynmt/joeynmt).
+ The model was developed with the JoeyNMT as a base framework (https://github.com/joeynmt/joeynmt).
  
  Both 'Models\full_joey.ipynb' and 'Models\demo_joey.ipynb' are intended to use via 'Google Colaboratory'.
- The full version of the notebook allows following the whole process of data preprocessing, model training and inference.
+ The full version of the notebook allows following the whole process of data preprocessing, model training, and inference.
  The demo version shows opportunities for translation with the trained model.
  
  'Models\full_joey_gdrive_legal_domain_adaptation.ipynb' was designed on the base of full model for domain adaptation. 
