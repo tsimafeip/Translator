@@ -2,6 +2,7 @@
 Russian-Belarusian neural translator
 
 The data is a part of my thesis about neural translation for the language pair Russian-Belarusian.
+Demo is available in two modes: web service (https://corpus.by/Translator/) and Google Collaboratory ('Models\demo_joey.ipynb').
 
 ## Repository
 The repo consists of
