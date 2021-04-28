@@ -1,7 +1,8 @@
 # Translator
 Russian-Belarusian neural translator
 
-The data is a part of my thesis about neural translation for the language pair Russian-Belarusian. Full text of Master Thesis is available - https://elib.bsu.by/handle/123456789/259142 (in Russian).
+The data is a part of my thesis about neural translation for the language pair Russian-Belarusian. 
+Full text of Master Thesis is available - https://elib.bsu.by/handle/123456789/259142 (in Russian).
 A demo is available in two modes: web service (https://corpus.by/Translator/) and Google Collaboratory ('Models\demo_joey.ipynb').
 
 ## Repository
