@@ -1,5 +1,9 @@
 import random
 from sklearn.model_selection import train_test_split
+import os
+
+root_path = os.path.abspath(os.path.join(os.getcwd(), "..", "corpus"))
+os.chdir(root_path)
 
 be_data = []
 ru_data = []
