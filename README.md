@@ -14,7 +14,7 @@ The repo consists of
  
  - 4.5k aligned sentence pairs of medical domain (under 'Data/MedicalData/')
  
- - 12k aligned sentence pairs of the legal domain (under 'Data/LegalData/'). The corpus preparation is still in progress.
+ - 17k aligned sentence pairs of the legal domain (under 'Data/LegalData/').
  
  - **Data/TabbedCorpusMiddleSent.txt** is a sample of 65966 sentences, at max 80 characters each, and is handy to train a model only on a sample of data.
 
@@ -36,7 +36,7 @@ The repo consists of
  
  Medical domain data was added (approximately 4k, 2020).
  
- Legal domain data was added (approximately 12k, 2021).
+ Legal domain data was added (approximately 17k, 2021).
  
  ## Data processing
  Data were aligned using 'Scripts\CorpusAligner.py'. It is a basic comparison of line length, which requires a lot of attention, but gives pretty good results.
